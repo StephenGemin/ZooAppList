@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ZooAppList</string>
+    <string name="baboon_header">Baboon</string>
+    <string name="baboon_desc">Baboons do things</string>
 </resources>
