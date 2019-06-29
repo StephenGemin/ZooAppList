@@ -11,5 +11,11 @@
     <string name="white_tiger">White Tiger</string>
     <string name="white_tiger_desc">White Tigers do things</string>
     <string name="zebra">Zebra</string>
-    <string name="zebra_desc">Zebras do things</string>
+    <string name="zebra_desc">Zebra do things</string>
+    <string name="fox">Fox</string>
+    <string name="fox_desc">Fox do things</string>
+    <string name="squirrel">Squirrel</string>
+    <string name="squirrel_desc">Squirrels do things</string>
+    <string name="cat">Cat</string>
+    <string name="cat_desc">Cats do things</string>
 </resources>

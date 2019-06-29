@@ -3,10 +3,12 @@ package com.example.zooapplist
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import kotlinx.android.synthetic.main.animal_ticket.view.*
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,12 +18,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         //load animals
-        listOfAnimals.add(Animal(R.string.baboon, R.string.baboon_desc, R.drawable.baboon))
-        listOfAnimals.add(Animal(R.string.bulldog, R.string.bulldog_desc, R.drawable.bulldog))
-        listOfAnimals.add(Animal(R.string.panda, R.string.panda_desc, R.drawable.panda))
-        listOfAnimals.add(Animal(R.string.swallow, R.string.swallow_desc, R.drawable.swallow_bird))
-        listOfAnimals.add(Animal(R.string.white_tiger, R.string.white_tiger_desc, R.drawable.white_tiger))
-        listOfAnimals.add(Animal(R.string.zebra, R.string.zebra_desc, R.drawable.zebra))
+        listOfAnimals.add(Animal(getString(R.string.baboon), getString(R.string.baboon_desc), R.drawable.baboon))
+        listOfAnimals.add(Animal(getString(R.string.panda), getString(R.string.panda_desc), R.drawable.panda))
+        listOfAnimals.add(Animal(getString(R.string.swallow), getString(R.string.swallow_desc), R.drawable.swallow_bird))
+        listOfAnimals.add(Animal(getString(R.string.white_tiger), getString(R.string.white_tiger_desc), R.drawable.white_tiger))
+        listOfAnimals.add(Animal(getString(R.string.zebra), getString(R.string.zebra_desc), R.drawable.zebra))
+        listOfAnimals.add(Animal(getString(R.string.cat), getString(R.string.cat_desc), R.drawable.cat))
+        listOfAnimals.add(Animal(getString(R.string.fox), getString(R.string.fox_desc), R.drawable.fox))
 
         adapter = animalAdapter(this, listOfAnimals)
         animalList.adapter = adapter
@@ -30,16 +33,17 @@ class MainActivity : AppCompatActivity() {
     class animalAdapter:BaseAdapter{
         var listOfAnimals=ArrayList<Animal>()
         var context:Context?=null
-        constructor(listOfAnimals:ArrayList<Animal>):super(){
+        constructor(context:Context, listOfAnimals:ArrayList<Animal>):super(){
             this.listOfAnimals = listOfAnimals
             this.context = context
         }
         override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
             val animal = listOfAnimals[p0]
-            val myView = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) layoutInflator.inflate(R.layout.animal_ticket, null)
-            myView.txt_header.text = animal.name
-            myView.txt_desc.text = animal.desc
-            myView.img.setImageResource(animal.image)
+            var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+            var myView = inflator.inflate(R.layout.animal_ticket, null)
+            myView.txt_header.text = animal.name!!.toString()
+            myView.txt_desc.text = animal.desc!!.toString()
+            myView.img.setImageResource(animal.image!!)
             return myView
         }
 
