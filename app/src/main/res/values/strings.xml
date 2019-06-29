@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">ZooAppList</string>
-    <string name="baboon_header">Baboon</string>
+    <string name="baboon">Baboon</string>
     <string name="baboon_desc">Baboons do things</string>
+    <string name="bulldog">Bulldog</string>
+    <string name="bulldog_desc">Bulldogs do things</string>
+    <string name="panda">Panda</string>
+    <string name="panda_desc">Pandas do things</string>
+    <string name="swallow">Swallow</string>
+    <string name="swallow_desc">Swallows do things</string>
+    <string name="white_tiger">White Tiger</string>
+    <string name="white_tiger_desc">White Tigers do things</string>
+    <string name="zebra">Zebra</string>
+    <string name="zebra_desc">Zebras do things</string>
 </resources>
