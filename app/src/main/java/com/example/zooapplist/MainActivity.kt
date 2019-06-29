@@ -18,13 +18,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         //load animals
-        listOfAnimals.add(Animal(getString(R.string.baboon), getString(R.string.baboon_desc), R.drawable.baboon))
-        listOfAnimals.add(Animal(getString(R.string.panda), getString(R.string.panda_desc), R.drawable.panda))
-        listOfAnimals.add(Animal(getString(R.string.swallow), getString(R.string.swallow_desc), R.drawable.swallow_bird))
-        listOfAnimals.add(Animal(getString(R.string.white_tiger), getString(R.string.white_tiger_desc), R.drawable.white_tiger))
-        listOfAnimals.add(Animal(getString(R.string.zebra), getString(R.string.zebra_desc), R.drawable.zebra))
-        listOfAnimals.add(Animal(getString(R.string.cat), getString(R.string.cat_desc), R.drawable.cat))
-        listOfAnimals.add(Animal(getString(R.string.fox), getString(R.string.fox_desc), R.drawable.fox))
+        listOfAnimals.add(Animal(getString(R.string.baboon), getString(R.string.baboon_desc), R.drawable.baboon, false))
+        listOfAnimals.add(Animal(getString(R.string.panda), getString(R.string.panda_desc), R.drawable.panda, false))
+        listOfAnimals.add(Animal(getString(R.string.swallow), getString(R.string.swallow_desc), R.drawable.swallow_bird, false))
+        listOfAnimals.add(Animal(getString(R.string.white_tiger), getString(R.string.white_tiger_desc), R.drawable.white_tiger, true))
+        listOfAnimals.add(Animal(getString(R.string.zebra), getString(R.string.zebra_desc), R.drawable.zebra, false))
+        listOfAnimals.add(Animal(getString(R.string.cat), getString(R.string.cat_desc), R.drawable.cat, true))
+        listOfAnimals.add(Animal(getString(R.string.fox), getString(R.string.fox_desc), R.drawable.fox, true))
 
         adapter = animalAdapter(this, listOfAnimals)
         animalList.adapter = adapter
@@ -39,12 +39,21 @@ class MainActivity : AppCompatActivity() {
         }
         override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
             val animal = listOfAnimals[p0]
-            var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            var myView = inflator.inflate(R.layout.animal_ticket, null)
-            myView.txt_header.text = animal.name!!.toString()
-            myView.txt_desc.text = animal.desc!!.toString()
-            myView.img.setImageResource(animal.image!!)
-            return myView
+            if (animal.iskiller!!) {
+                var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+                var myView = inflator.inflate(R.layout.animal_iskiller_ticket, null)
+                myView.txt_header.text = animal.name!!.toString()
+                myView.txt_desc.text = animal.desc!!.toString()
+                myView.img.setImageResource(animal.image!!)
+                return myView
+            } else {
+                var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+                var myView = inflator.inflate(R.layout.animal_ticket, null)
+                myView.txt_header.text = animal.name!!.toString()
+                myView.txt_desc.text = animal.desc!!.toString()
+                myView.img.setImageResource(animal.image!!)
+                return myView
+            }
         }
 
         override fun getItem(p0: Int): Any {
