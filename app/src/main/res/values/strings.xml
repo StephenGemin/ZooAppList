@@ -5,43 +5,69 @@
     <string name="baboon">Baboon</string>
     <string name="baboon_desc">Baboon, is just big primates that look pretty ugly.</string>
     <string name="panda">Panda</string>
-    <string name="panda_desc">Panda, is a bear native to south central China</string>
+    <string name="panda_desc">Panda, is a bear native to south central China.</string>
     <string name="bulldog">Bulldog</string>
     <string name="bulldog_desc">The Bulldog, is a medium-sized breed of dog.</string>
     <string name="swallow">Swallow</string>
-    <string name="swallow_desc">Just another species of bird I have never seen before</string>
+    <string name="swallow_desc">Just another species of bird I have never seen before.</string>
     <string name="white_tiger">White Tiger</string>
-    <string name="white_tiger_desc">White Tiger are beautiful but terrifying creatures</string>
+    <string name="white_tiger_desc">White Tiger are beautiful but terrifying creatures.</string>
     <string name="zebra">Zebra</string>
-    <string name="zebra_desc">Zebra do things</string>
+    <string name="zebra_desc">Zebras are just horses with black and white stripes.</string>
     <string name="fox">Fox</string>
-    <string name="fox_desc">Fox do things</string>
+    <string name="fox_desc">Foxes are usually associated with being a big pain in the ass.</string>
     <string name="squirrel">Squirrel</string>
-    <string name="squirrel_desc">Squirrels do things</string>
+    <string name="squirrel_desc">Squirrels are just rats with more fur.</string>
     <string name="cat">Cat</string>
-    <string name="cat_desc">Cats do things</string>
+    <string name="cat_desc">Cats can be cute, but not as cute as dogs.</string>
 
     <!--Details page-->
     <string name="baboon_detail_desc">
-        <b>Example text, taken from Wikipedia</b>\n\n
+        Example text, taken from Wikipedia\n\n
         Baboons are primates comprising the genus Papio, one of the 23 genera of Old World monkeys.\n\n
         The common names of the five species of baboons are the hamadryas, the Guinea (also called the western and the red), the olive, the yellow, and the chacma baboons. They are each native to one of five specific areas of Africa, and the hamadryas baboon is also native to part of the Arabian Peninsula.[2] They are among the largest non-hominoid primates. Baboons have existed for at least two million years.\n\n
         Baboons vary in size and weight depending on the species. The smallest, the Guinea baboon, is 50 cm (20 in) in length and weighs only 14 kg (31 lb), while the largest, the chacma baboon, is up to 120 cm (47 in) in length and weighs 40 kg (88 lb). All baboons have long, dog-like muzzles, heavy, powerful jaws with sharp canine teeth, close-set eyes, thick fur except on their muzzles, short tails, and nerveless, hairless pads of skin on their protruding buttocks called ischial callosities that provide for sitting comfort. Male hamadryas baboons have large white manes. Baboons exhibit sexual dimorphism in size, colour and/or canine teeth development.\n\n
         Baboons have diurnality and are terrestrial, but some sleep in trees at night. They are found in open savannahs and woodlands across Africa. They are omnivorous: common sources of food are insects, fish, shellfish, hares, birds, vervet monkeys, and small antelopes. Their principal predators are Nile crocodiles, large cats, and hyenas. Most baboons live in hierarchical troops containing harems. Baboons can determine from vocal exchanges what the dominance relations are between individuals.\n\n
         In general, each male can mate with any female: the mating order among the males depends partially on their social ranking. Females typically give birth after a six-month gestation, usually to a single infant. The females tend to be the primary caretaker of the young, although several females may share the duties for all of their offspring. Offspring are weaned after about a year. They reach sexual maturity in five to eight years. Males leave their birth group, usually before they reach sexual maturity, whereas females stay in the same group their entire lives. Baboons in captivity live up to 45 years, while in the wild they live up to 30 years.\n\n
     </string>
-
     <string name="panda_detail_desc">
-        <b>Example text, taken from Wikipedia</b>\n\n
+        Example text, taken from Wikipedia\n\n
         The giant panda (Ailuropoda melanoleuca; Chinese: 大熊猫; pinyin: dà xióng māo),[4] also known as panda bear or simply panda, is a bear[5] native to south central China.[1] It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. The name "giant panda" is sometimes used to distinguish it from the red panda. Though it belongs to the order Carnivora, the giant panda is a folivore, with bamboo shoots and leaves making up more than 99% of its diet.[6] Giant pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents, or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food.[7][8]\n\n
         The giant panda lives in a few mountain ranges in central China, mainly in Sichuan, but also in neighbouring Shaanxi and Gansu.[9] As a result of farming, deforestation, and other development, the giant panda has been driven out of the lowland areas where it once lived.\n\n
         The giant panda is a conservation-reliant vulnerable species.[10][11] A 2007 report showed 239 pandas living in captivity inside China and another 27 outside the country.[12] As of December 2014, 49 giant pandas lived in captivity outside China, living in 18 zoos in 13 different countries.[13] Wild population estimates vary; one estimate shows that there are about 1,590 individuals living in the wild,[12] while a 2006 study via DNA analysis estimated that this figure could be as high as 2,000 to 3,000.[14] Some reports also show that the number of giant pandas in the wild is on the rise.[15] In March 2015, conservation news site Mongabay stated that the wild giant panda population had increased by 268, or 16.8%, to 1,864.[16] In 2016, the IUCN reclassified the species from "endangered" to "vulnerable".[11]\n\n
         While the dragon has often served as China\'s national symbol, internationally the giant panda has often filled this role. As such, it is becoming widely used within China in international contexts, for example, appearing since 1982 on gold panda bullion coins and as one of the five Fuwa mascots of the Beijing Olympics.\n\n
     </string>
-
     <string name="bulldog_detail_desc">
-        <b>Example text, taken from Wikipedia</b>\n\n
+        Example text, taken from Wikipedia\n\n
         The Bulldog, also known as the British Bulldog or English Bulldog, is a medium-sized breed of dog. It is a muscular, hefty dog with a wrinkled face and a distinctive pushed-in nose.[4] The American Kennel Club (US), The Kennel Club (UK), and the United Kennel Club (US) oversee breeding records. Bulldogs are popular pets; they were the fourth most popular purebreed in the US in 2016 according to the American Kennel Club.[5]\n\n
         Bulldogs have a longstanding association with English culture, as the BBC wrote: "to many the Bulldog is a national icon, symbolising pluck and determination."[6] During World War II, Bulldogs were often likened to Prime Minister Winston Churchill and his defiance of Nazi Germany.[7] When the English settled in the Americas, their Bulldogs came with them. A few dedicated bulldog fanciers formed the Bulldog Club of America in 1890 and it was incorporated under the laws of the State of New York on November 29, 1904.[8]\n\n
+    </string>
+    <string name="swallow_detail_desc">
+        Example text, taken from Wikipedia\n\n
+        The swallows, martins and saw-wings, or Hirundinidae, are a family of passerine birds found around the world on all continents, including occasionally in Antarctica. Highly adapted to aerial feeding, they have a distinctive appearance. The term Swallow is used colloquially in Europe as a synonym for the barn swallow. There are around 90 species of Hirundinidae,[1] divided into 19 genera, with the greatest diversity found in Africa, which is also thought to be where they evolved as hole-nesters.[2] They also occur on a number of oceanic islands. A number of European and North American species are long-distance migrants; by contrast, the West and South African swallows are non-migratory.\n\n
+        This family comprises two subfamilies: Pseudochelidoninae (the river martins of the genus Pseudochelidon) and Hirundininae (all other swallows, martins and saw-wings). Within the Old World, the name martin tends to be used for the squarer-tailed species, and the name swallow for the more fork-tailed species; however, there is no scientific distinction between these two groups.[3] Within the New World, "martin" is reserved for members of the genus Progne. (These two systems are responsible for the sand martin being called "bank swallow" in the New World.)\n\n
+    </string>
+    <string name="white_tiger_detail_desc">
+        Example text, taken from Wikipedia\n\n
+        The white tiger or bleached tiger is a pigmentation variant of the Bengal tiger, which is reported in the wild from time to time in the Indian states of Madhya Pradesh, Assam, West Bengal and Bihar in the Sunderbans region and especially in the former State of Rewa.[1] Such a tiger has the black stripes typical of the Bengal tiger, but carries a white or near-white coat.
+    </string>
+    <string name="zebra_detail_desc">
+        Example text, taken from Wikipedia\n\n
+        Zebras (/ˈziːbrə/ ZEE-brə, /ˈzɛbrə/ ZEB-rə)[1] are several species of African equids (horse family) united by their distinctive black-and-white striped coats. Their stripes come in different patterns, unique to each individual. They are generally social animals that live in small harems to large herds. Unlike their closest relatives, horses and donkeys, zebras have never been truly domesticated.\n\n
+        There are three species of zebras: the plains zebra, the mountain zebra and the Grévy\'s zebra. The plains zebra and the mountain zebra belong to the subgenus Hippotigris, while Grévy\'s zebra is the sole species of subgenus Dolichohippus. The latter resembles an ass, to which zebras are closely related, while the former two look more horse-like. All three belong to the genus Equus, along with other living equids.\n\n
+        The unique stripes of zebras make them one of the animals most familiar to people. They occur in a variety of habitats, such as grasslands, savannas, woodlands, thorny scrublands, mountains, and coastal hills. Various anthropogenic factors have had a severe impact on zebra populations, in particular hunting for skins and habitat destruction. Grévy\'s zebra and the mountain zebra are endangered. While plains zebras are much more plentiful, one subspecies, the quagga, became extinct in the late 19th century – though there is currently a plan, called the Quagga Project, that aims to breed zebras that are phenotypically similar to the quagga in a process called breeding back.
+    </string>
+    <string name="cat_detail_desc">
+        Example text, taken from Wikipedia\n\n
+        The cat (Felis catus) is a small carnivorous mammal.[1][2] It is the only domesticated species in the family Felidae and often referred to as the domestic cat to distinguish it from wild members of the family.[4] The cat is either a house cat, kept as a pet, or a feral cat, freely ranging and avoiding human contact.[5] A house cat is valued by humans for companionship and for its ability to hunt rodents. About 60 cat breeds are recognized by various cat registries.[6]\n\n
+        Cats are similar in anatomy to the other felid species, with a strong flexible body, quick reflexes, sharp teeth and retractable claws adapted to killing small prey. They are predators who are most active at dawn and dusk (crepuscular). Cats can hear sounds too faint or too high in frequency for human ears, such as those made by mice and other small animals. Compared to humans, they see better in the dark (they see in near total darkness) and have a better sense of smell, but poorer color vision. Cats, despite being solitary hunters, are a social species. Cat communication includes the use of vocalizations including mewing, purring, trilling, hissing, growling and grunting as well as cat-specific body language.[7] Cats also communicate by secreting and perceiving pheromones.[8]\n\n
+        Female domestic cats can have kittens from spring to late autumn, with litter sizes ranging from two to five kittens.[9] Domestic cats can be bred and shown as registered pedigreed cats, a hobby known as cat fancy. Failure to control the breeding of pet cats by spaying and neutering, as well as abandonment of pets, has resulted in large numbers of feral cats worldwide, contributing to the extinction of entire bird species, and evoking population control.[10]\n\n
+        It was long thought that cat domestication was initiated in Egypt, because cats in ancient Egypt were venerated since around 3100 BC.[11][12] However, the earliest indication for the taming of an African wildcat (F. lybica) was found in Cyprus, where a cat skeleton was excavated close by a human Neolithic grave dating to around 7500 BC.[13] African wildcats were probably first domesticated in the Near East.[14] The leopard cat (Prionailurus bengalensis) was tamed independently in China around 5500 BC, though this line of partially domesticated cats leaves no trace in the domestic cat populations of today.[15][16]\n\n
+        As of 2017, the domestic cat was the second-most popular pet in the U.S. by number of pets owned, after freshwater fish,[17] with 95 million cats owned.[18][19] As of 2017, it was ranked the third-most popular pet in the UK, after fish and dogs, with around 8 million being owned.[20] The number of cats in the United Kingdom has nearly doubled since 1965, when the cat population was 4.1 million.[21]
+    </string>
+    <string name="fox_detail_desc">
+        Example text, taken from Wikipedia\n\n
+        Foxes are small-to-medium-sized, omnivorous mammals belonging to several genera of the family Canidae. Foxes have a flattened skull, upright triangular ears, a pointed, slightly upturned snout, and a long bushy tail (or brush).\n\n
+        Twelve species belong to the monophyletic "true foxes" group of genus Vulpes. Approximately another 25 current or extinct species are always or sometimes called foxes; these foxes are either part of the paraphyletic group of the South American foxes, or of the outlying group, which consists of bat-eared fox, gray fox, and island fox.[1] Foxes live on every continent except Antarctica. By far the most common and widespread species of fox is the red fox (Vulpes vulpes) with about 47 recognized subspecies.[2] The global distribution of foxes, together with their widespread reputation for cunning, has contributed to their prominence in popular culture and folklore in many societies around the world. The hunting of foxes with packs of hounds, long an established pursuit in Europe, especially in the British Isles, was exported by European settlers to various parts of the New World.
     </string>
 </resources>

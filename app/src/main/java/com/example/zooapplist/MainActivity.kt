@@ -23,27 +23,23 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //get styled detailed descriptions
-//        var temp_baboon:String = getString(R.string.baboon_detail_desc)
-//        var styled_temp_baboon:Spanned = Html.fromHtml(temp_baboon, from_html_mode_legace)
-
         //load animals
         listOfAnimals.add(Animal(
             getString(R.string.baboon), getString(R.string.baboon_desc), getString(R.string.baboon_detail_desc), R.drawable.baboon, false))
         listOfAnimals.add(Animal(
             getString(R.string.panda), getString(R.string.panda_desc), getString(R.string.panda_detail_desc), R.drawable.panda, false))
         listOfAnimals.add(Animal(
-            getString(R.string.bulldog), getString(R.string.bulldog_desc), getString(R.string.bulldog_detail_desc), R.drawable.panda, false))
+            getString(R.string.bulldog), getString(R.string.bulldog_desc), getString(R.string.bulldog_detail_desc), R.drawable.bulldog, false))
         listOfAnimals.add(Animal(
-            getString(R.string.swallow), getString(R.string.swallow_desc), getString(R.string.baboon_detail_desc), R.drawable.swallow_bird, false))
+            getString(R.string.swallow), getString(R.string.swallow_desc), getString(R.string.swallow_detail_desc), R.drawable.swallow_bird, false))
         listOfAnimals.add(Animal(
-            getString(R.string.white_tiger), getString(R.string.white_tiger_desc), getString(R.string.baboon_detail_desc), R.drawable.white_tiger, true))
+            getString(R.string.white_tiger), getString(R.string.white_tiger_desc), getString(R.string.white_tiger_detail_desc), R.drawable.white_tiger, true))
         listOfAnimals.add(Animal(
-            getString(R.string.zebra), getString(R.string.zebra_desc), getString(R.string.baboon_detail_desc), R.drawable.zebra, false))
+            getString(R.string.zebra), getString(R.string.zebra_desc), getString(R.string.zebra_detail_desc), R.drawable.zebra, false))
         listOfAnimals.add(Animal(
-            getString(R.string.cat), getString(R.string.cat_desc), getString(R.string.baboon_detail_desc), R.drawable.cat, true))
+            getString(R.string.cat), getString(R.string.cat_desc), getString(R.string.cat_detail_desc), R.drawable.cat, true))
         listOfAnimals.add(Animal(
-            getString(R.string.fox), getString(R.string.fox_desc), getString(R.string.baboon_detail_desc), R.drawable.fox, true))
+            getString(R.string.fox), getString(R.string.fox_desc), getString(R.string.fox_detail_desc), R.drawable.fox, true))
 
         adapter = animalAdapter(this, listOfAnimals)
         animalList.adapter = adapter
