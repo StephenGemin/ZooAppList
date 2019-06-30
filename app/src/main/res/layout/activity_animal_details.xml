@@ -6,5 +6,70 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".AnimalDetails">
+    <TextView
+            android:id="@+id/det_animal_name"
+            android:text="@string/baboon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="@id/guideline_horizontal"
+            android:textSize="@dimen/header"
+            android:textAlignment="center"/>
+    <ImageView
+            android:id="@+id/det_animal_image"
+            app:srcCompat="@drawable/baboon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="60dp"
+            app:layout_constraintTop_toTopOf="@+id/guideline_horizontal"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:contentDescription=""
+            tools:ignore="contentDescription"/>
+    <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintGuide_begin="20dp"
+            android:orientation="vertical"/>
+    <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintGuide_begin="20dp"
+            android:orientation="horizontal"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@id/det_animal_image"
+            android:layout_marginTop="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="40dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    android:id="@+id/det_animal_extra_description"
+                    android:text="@string/baboon_detail_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/detail_desc"
+                    android:textAlignment="viewStart"
+                    android:paddingStart="5pt"
+                    android:paddingEnd="5pt"
+            />
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

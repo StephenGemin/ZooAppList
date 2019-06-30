@@ -1,15 +1,17 @@
 <resources>
-    <string name="app_name">ZooAppList</string>
+    <string name="app_name">Zoo App</string>
+
+    <!--Main List Page-->
     <string name="baboon">Baboon</string>
-    <string name="baboon_desc">Baboons do things</string>
-    <string name="bulldog">Bulldog</string>
-    <string name="bulldog_desc">Bulldogs do things</string>
+    <string name="baboon_desc">Baboon, is just big primates that look pretty ugly.</string>
     <string name="panda">Panda</string>
-    <string name="panda_desc">Pandas do things</string>
+    <string name="panda_desc">Panda, is a bear native to south central China</string>
+    <string name="bulldog">Bulldog</string>
+    <string name="bulldog_desc">The Bulldog, is a medium-sized breed of dog.</string>
     <string name="swallow">Swallow</string>
-    <string name="swallow_desc">Swallows do things</string>
+    <string name="swallow_desc">Just another species of bird I have never seen before</string>
     <string name="white_tiger">White Tiger</string>
-    <string name="white_tiger_desc">White Tigers do things</string>
+    <string name="white_tiger_desc">White Tiger are beautiful but terrifying creatures</string>
     <string name="zebra">Zebra</string>
     <string name="zebra_desc">Zebra do things</string>
     <string name="fox">Fox</string>
@@ -18,4 +20,28 @@
     <string name="squirrel_desc">Squirrels do things</string>
     <string name="cat">Cat</string>
     <string name="cat_desc">Cats do things</string>
+
+    <!--Details page-->
+    <string name="baboon_detail_desc">
+        <b>Example text, taken from Wikipedia</b>\n\n
+        Baboons are primates comprising the genus Papio, one of the 23 genera of Old World monkeys.\n\n
+        The common names of the five species of baboons are the hamadryas, the Guinea (also called the western and the red), the olive, the yellow, and the chacma baboons. They are each native to one of five specific areas of Africa, and the hamadryas baboon is also native to part of the Arabian Peninsula.[2] They are among the largest non-hominoid primates. Baboons have existed for at least two million years.\n\n
+        Baboons vary in size and weight depending on the species. The smallest, the Guinea baboon, is 50 cm (20 in) in length and weighs only 14 kg (31 lb), while the largest, the chacma baboon, is up to 120 cm (47 in) in length and weighs 40 kg (88 lb). All baboons have long, dog-like muzzles, heavy, powerful jaws with sharp canine teeth, close-set eyes, thick fur except on their muzzles, short tails, and nerveless, hairless pads of skin on their protruding buttocks called ischial callosities that provide for sitting comfort. Male hamadryas baboons have large white manes. Baboons exhibit sexual dimorphism in size, colour and/or canine teeth development.\n\n
+        Baboons have diurnality and are terrestrial, but some sleep in trees at night. They are found in open savannahs and woodlands across Africa. They are omnivorous: common sources of food are insects, fish, shellfish, hares, birds, vervet monkeys, and small antelopes. Their principal predators are Nile crocodiles, large cats, and hyenas. Most baboons live in hierarchical troops containing harems. Baboons can determine from vocal exchanges what the dominance relations are between individuals.\n\n
+        In general, each male can mate with any female: the mating order among the males depends partially on their social ranking. Females typically give birth after a six-month gestation, usually to a single infant. The females tend to be the primary caretaker of the young, although several females may share the duties for all of their offspring. Offspring are weaned after about a year. They reach sexual maturity in five to eight years. Males leave their birth group, usually before they reach sexual maturity, whereas females stay in the same group their entire lives. Baboons in captivity live up to 45 years, while in the wild they live up to 30 years.\n\n
+    </string>
+
+    <string name="panda_detail_desc">
+        <b>Example text, taken from Wikipedia</b>\n\n
+        The giant panda (Ailuropoda melanoleuca; Chinese: 大熊猫; pinyin: dà xióng māo),[4] also known as panda bear or simply panda, is a bear[5] native to south central China.[1] It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. The name "giant panda" is sometimes used to distinguish it from the red panda. Though it belongs to the order Carnivora, the giant panda is a folivore, with bamboo shoots and leaves making up more than 99% of its diet.[6] Giant pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents, or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food.[7][8]\n\n
+        The giant panda lives in a few mountain ranges in central China, mainly in Sichuan, but also in neighbouring Shaanxi and Gansu.[9] As a result of farming, deforestation, and other development, the giant panda has been driven out of the lowland areas where it once lived.\n\n
+        The giant panda is a conservation-reliant vulnerable species.[10][11] A 2007 report showed 239 pandas living in captivity inside China and another 27 outside the country.[12] As of December 2014, 49 giant pandas lived in captivity outside China, living in 18 zoos in 13 different countries.[13] Wild population estimates vary; one estimate shows that there are about 1,590 individuals living in the wild,[12] while a 2006 study via DNA analysis estimated that this figure could be as high as 2,000 to 3,000.[14] Some reports also show that the number of giant pandas in the wild is on the rise.[15] In March 2015, conservation news site Mongabay stated that the wild giant panda population had increased by 268, or 16.8%, to 1,864.[16] In 2016, the IUCN reclassified the species from "endangered" to "vulnerable".[11]\n\n
+        While the dragon has often served as China\'s national symbol, internationally the giant panda has often filled this role. As such, it is becoming widely used within China in international contexts, for example, appearing since 1982 on gold panda bullion coins and as one of the five Fuwa mascots of the Beijing Olympics.\n\n
+    </string>
+
+    <string name="bulldog_detail_desc">
+        <b>Example text, taken from Wikipedia</b>\n\n
+        The Bulldog, also known as the British Bulldog or English Bulldog, is a medium-sized breed of dog. It is a muscular, hefty dog with a wrinkled face and a distinctive pushed-in nose.[4] The American Kennel Club (US), The Kennel Club (UK), and the United Kennel Club (US) oversee breeding records. Bulldogs are popular pets; they were the fourth most popular purebreed in the US in 2016 according to the American Kennel Club.[5]\n\n
+        Bulldogs have a longstanding association with English culture, as the BBC wrote: "to many the Bulldog is a national icon, symbolising pluck and determination."[6] During World War II, Bulldogs were often likened to Prime Minister Winston Churchill and his defiance of Nazi Germany.[7] When the English settled in the Americas, their Bulldogs came with them. A few dedicated bulldog fanciers formed the Bulldog Club of America in 1890 and it was incorporated under the laws of the State of New York on November 29, 1904.[8]\n\n
+    </string>
 </resources>
