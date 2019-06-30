@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
 import android.text.Spanned
+import android.text.TextUtils
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         //load animals
         listOfAnimals.add(Animal(
             getString(R.string.baboon), getString(R.string.baboon_desc), getString(R.string.baboon_detail_desc), R.drawable.baboon, false))
@@ -60,7 +62,7 @@ class MainActivity : AppCompatActivity() {
                 myView.txt_header.text = animal.name!!
                 myView.txt_desc.text = animal.desc!!
                 myView.img.setImageResource(animal.image!!)
-                myView.img.setOnClickListener{
+                myView.animal_ticket.setOnClickListener{
                     val intent = Intent(context, AnimalDetails::class.java)
                     intent.putExtra("name", animal.name)
                     intent.putExtra("detail_desc", animal.detail_desc)
@@ -74,7 +76,7 @@ class MainActivity : AppCompatActivity() {
                 myView.txt_header.text = animal.name!!.toString()
                 myView.txt_desc.text = animal.desc!!.toString()
                 myView.img.setImageResource(animal.image!!)
-                myView.img.setOnClickListener{
+                myView.animal_ticket.setOnClickListener{
                     val intent = Intent(context, AnimalDetails::class.java)
                     intent.putExtra("name", animal.name)
                     intent.putExtra("detail_desc", animal.detail_desc)
