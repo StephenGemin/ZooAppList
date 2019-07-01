@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
                 myView.txt_header.text = animal.name!!
                 myView.txt_desc.text = animal.desc!!
                 myView.img.setImageResource(animal.image!!)
-                myView.animal_ticket.setOnClickListener{
+                myView.img.setOnClickListener{
                     val intent = Intent(context, AnimalDetails::class.java)
                     intent.putExtra("name", animal.name)
                     intent.putExtra("detail_desc", animal.detail_desc)
@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
                 myView.txt_header.text = animal.name!!.toString()
                 myView.txt_desc.text = animal.desc!!.toString()
                 myView.img.setImageResource(animal.image!!)
-                myView.animal_ticket.setOnClickListener{
+                myView.img.setOnClickListener{
                     val intent = Intent(context, AnimalDetails::class.java)
                     intent.putExtra("name", animal.name)
                     intent.putExtra("detail_desc", animal.detail_desc)

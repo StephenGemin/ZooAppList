@@ -24,8 +24,8 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="60dp"
-            app:layout_constraintTop_toTopOf="@+id/guideline_horizontal"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/det_animal_name"
             app:layout_constraintHorizontal_bias="0.5"
             android:contentDescription=""
             tools:ignore="contentDescription"/>
@@ -50,9 +50,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="20dp"
             app:layout_constraintTop_toBottomOf="@id/det_animal_image"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="40dp">
+            android:layout_marginBottom="20dp">
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
